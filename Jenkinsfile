@@ -10,8 +10,8 @@ pipeline {
           }
 stage('Test') {
     steps {
-				sh './main/hello'
-				echo 'Test successful'
+		sh './main/hello'
+		eho 'Test successful'
 			}
 }
 stage ('Deploy') {

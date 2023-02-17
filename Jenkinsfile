@@ -16,7 +16,7 @@ stage('Test') {
 }
 stage ('Deploy') {
       steps {
-        ech 'Deployment Successful'
+        echo 'Deployment Successful'
       }
    }
 }
